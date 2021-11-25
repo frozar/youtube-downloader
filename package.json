@@ -1,15 +1,19 @@
 {
-    "name": "youtube-downloader",
-    "version": "1.0.0",
-    "description": "For a given youtubeId, download audio of this youtube video.",
-    "main": "index.js",
-    "scripts": {
-        "start": "node index.js"
-    },
-    "author": "",
-    "license": "Apache-2.0",
-    "dependencies": {
-        "express": "^4.16.4",
-        "ytdl-core": "^4.2.1"
-    }
+  "name": "youtube-downloader",
+  "version": "1.0.0",
+  "description": "For a given youtubeId, download audio of this youtube video.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc index.ts && node index.js"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.16.4",
+    "ytdl-core": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "typescript": "^4.5.2"
+  }
 }
